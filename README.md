@@ -53,7 +53,7 @@ PUT {{h}}/todos/4/mark-complete
 
 ## Build and Run
 
-Clone the repository and type `dotnet run`.
+Clone the repository and enter `dotnet run`.
 
 ### Demo
 
