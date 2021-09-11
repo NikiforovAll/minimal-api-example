@@ -1,0 +1,30 @@
+@h=https://localhost:5001/api
+
+GET {{h}}/home
+
+
+###
+
+GET {{h}}/todos
+
+###
+
+GET {{h}}/todos/4
+
+
+###
+PUT {{h}}/todos/4/mark-complete
+
+###
+
+DELETE {{h}}/todos/4
+
+
+###
+
+POST {{h}}/todos
+Content-Type: application/json
+
+{
+  "title": "Write blog post about minimal api"
+}
