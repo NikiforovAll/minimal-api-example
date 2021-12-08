@@ -15,9 +15,9 @@ var environment = app.Environment;
 app
     .UseExceptionHandling(environment)
     .UseSwaggerEndpoints(routePrefix: string.Empty)
-    .UseAppCors()
-    .UseAuthentication()
-    .UseAuthorization();
+    .UseAppCors();
+    //.UseAuthentication()
+    //.UseAuthorization();
 
 app.MapCarter();
 

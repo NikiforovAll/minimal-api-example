@@ -1,4 +1,4 @@
-namespace MinimalAPI;
+namespace MinimalAPI.Features;
 
 using Dapper;
 using Microsoft.Data.Sqlite;

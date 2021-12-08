@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <LangVersion>preview</LangVersion>
+    <ImplicitUsings>true</ImplicitUsings>
     <RootNamespace>MinimalAPI</RootNamespace>
   </PropertyGroup>
 
@@ -12,7 +13,7 @@
     <PackageReference Include="Serilog.Sinks.Console" Version="4.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="6.1.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.5" />
-    <PackageReference Include="Carter" Version="6.0.0-pre2" />
+    <PackageReference Include="Carter" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="6.0.0-*" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0-preview.7.*" />
     <PackageReference Include="Dapper" Version="2.0.90" />
